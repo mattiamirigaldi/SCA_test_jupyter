@@ -20,7 +20,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='/home/sca.user/Desktop/src/vivado/CW305_DesignStart/CW305_DesignStart.runs/impl_1'
+HD_PWD='/home/sca.user/chipwhisperer/jupyter/mattia_sca/CW305_DesignStart/vivado/CW305_DesignStart/CW305_DesignStart.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -37,7 +37,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log CW305_designstart_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source CW305_designstart_top.tcl -notrace
 
 

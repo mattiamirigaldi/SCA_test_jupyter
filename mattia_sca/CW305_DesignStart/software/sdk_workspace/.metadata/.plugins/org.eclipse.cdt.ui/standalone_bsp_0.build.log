@@ -1,4 +1,4 @@
-12:43:04 **** Auto Build of project standalone_bsp_0 ****
+11:47:13 **** Build of project standalone_bsp_0 ****
 make -k all 
 Running Make include in Cortex_M3_0/libsrc/bram_v4_3/src
 make -C Cortex_M3_0/libsrc/bram_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-march=armv6-m -mthumb -Wall -Wextra"
@@ -72,5 +72,5 @@ make -C Cortex_M3_0/libsrc/uartlite_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=
 Compiling uartlite
 Finished building libraries
 
-12:43:06 Build Finished (took 2s.488ms)
+11:47:15 Build Finished (took 2s.167ms)
 

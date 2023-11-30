@@ -9,75 +9,75 @@ I (C:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cm
 I (C:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
 I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5D27354F)
 F (..\cmsis\Device\Source\ARTY_CM3\ARM\startup_ARTY_CM3.s)(0x5D134FB8)(--cpu Cortex-M3 --li --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include--pd "__UVISION_VERSION SETA 538" --pd "_RTE_ SETA 1" --pd "ARMCM3 SETA 1" --pd "_RTE_ SETA 1"--list .\objects\startup_arty_cm3.lst --xref -o .\objects\startup_arty_cm3.o --depend .\objects\startup_arty_cm3.d)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\outbyte.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\outbyte.o --omf_browse .\objects\outbyte.crf --depend .\objects\outbyte.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\outbyte.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\outbyte.o --omf_browse .\objects\outbyte.crf --depend .\objects\outbyte.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\print.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\print.o --omf_browse .\objects\print.crf --depend .\objects\print.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_printf.h)(0x65563C4B)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\print.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\print.o --omf_browse .\objects\print.crf --depend .\objects\print.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_printf.h)(0x65686831)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h)(0x65563C4B)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h)(0x65686831)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\bspconfig.h)(0x65563C4B)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xil_assert.o --omf_browse .\objects\xil_assert.crf --depend .\objects\xil_assert.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h)(0x65563C4B)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\bspconfig.h)(0x65686831)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xil_assert.o --omf_browse .\objects\xil_assert.crf --depend .\objects\xil_assert.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_types.h)(0x65686831)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.h)(0x65563C4B)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\inbyte.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\inbyte.o --omf_browse .\objects\inbyte.crf --depend .\objects\inbyte.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\xil_assert.h)(0x65686831)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\standalone_v6_7\src\inbyte.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\inbyte.o --omf_browse .\objects\inbyte.crf --depend .\objects\inbyte.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\main\cw_main.c)(0x65550586)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\cw_main.o --omf_browse .\objects\cw_main.crf --depend .\objects\cw_main.d)
+F (..\main\cw_main.c)(0x656081DD)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\cw_main.o --omf_browse .\objects\cw_main.crf --depend .\objects\cw_main.d)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\time.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65686832)
 I (..\main\m3_for_arty.h)(0x5D27354F)
 I (..\cmsis\Device\Include\peripherallink.h)(0x5D27354F)
 I (..\cmsis\Device\Include\ARTY_CM3\ARTY_CM3.h)(0x5D27354F)
@@ -92,25 +92,25 @@ I (..\spi\spi.h)(0x5D27354F)
 I (..\simpleserial\simpleserial.h)(0x65550586)
 I (..\simpleserial\hal.h)(0x65550586)
 I (..\crypto\aes-independant.h)(0x65550586)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite.h)(0x65686832)
 F (..\gpio\cw_gpio.c)(0x65550586)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\cw_gpio.o --omf_browse .\objects\cw_gpio.crf --depend .\objects\cw_gpio.d)
 I (..\gpio\cw_gpio.h)(0x65550586)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xgpio_l.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
 F (..\uart\uart.c)(0x5D27354F)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
 I (..\main\m3_for_arty.h)(0x5D27354F)
@@ -123,258 +123,258 @@ I (C:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cm
 I (C:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626FAD4E)
 I (..\cmsis\Device\Include\ARTY_CM3\system_ARTY_CM3.h)(0x5D27354F)
 I (..\uart\uart.h)(0x5D27354F)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio.o --omf_browse .\objects\xgpio.crf --depend .\objects\xgpio.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio.o --omf_browse .\objects\xgpio.crf --depend .\objects\xgpio.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_extra.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_extra.o --omf_browse .\objects\xgpio_extra.crf --depend .\objects\xgpio_extra.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_extra.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_extra.o --omf_browse .\objects\xgpio_extra.crf --depend .\objects\xgpio_extra.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_i.h)(0x65563C4B)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_g.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_g.o --omf_browse .\objects\xgpio_g.crf --depend .\objects\xgpio_g.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_i.h)(0x65686831)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_g.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_g.o --omf_browse .\objects\xgpio_g.crf --depend .\objects\xgpio_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_intr.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_intr.o --omf_browse .\objects\xgpio_intr.crf --depend .\objects\xgpio_intr.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_intr.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_intr.o --omf_browse .\objects\xgpio_intr.crf --depend .\objects\xgpio_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_selftest.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_selftest.o --omf_browse .\objects\xgpio_selftest.crf --depend .\objects\xgpio_selftest.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_selftest.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_selftest.o --omf_browse .\objects\xgpio_selftest.crf --depend .\objects\xgpio_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_sinit.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_sinit.o --omf_browse .\objects\xgpio_sinit.crf --depend .\objects\xgpio_sinit.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_sinit.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xgpio_sinit.o --omf_browse .\objects\xgpio_sinit.crf --depend .\objects\xgpio_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_i.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_i.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\gpio_v4_4\src\xgpio_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite.o --omf_browse .\objects\xuartlite.crf --depend .\objects\xuartlite.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite.o --omf_browse .\objects\xuartlite.crf --depend .\objects\xuartlite.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_g.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_g.o --omf_browse .\objects\xuartlite_g.crf --depend .\objects\xuartlite_g.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_g.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_g.o --omf_browse .\objects\xuartlite_g.crf --depend .\objects\xuartlite_g.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_intr.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_intr.o --omf_browse .\objects\xuartlite_intr.crf --depend .\objects\xuartlite_intr.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_intr.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_intr.o --omf_browse .\objects\xuartlite_intr.crf --depend .\objects\xuartlite_intr.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_l.o --omf_browse .\objects\xuartlite_l.crf --depend .\objects\xuartlite_l.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_l.o --omf_browse .\objects\xuartlite_l.crf --depend .\objects\xuartlite_l.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_selftest.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_selftest.o --omf_browse .\objects\xuartlite_selftest.crf --depend .\objects\xuartlite_selftest.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_selftest.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_selftest.o --omf_browse .\objects\xuartlite_selftest.crf --depend .\objects\xuartlite_selftest.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_sinit.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_sinit.o --omf_browse .\objects\xuartlite_sinit.crf --depend .\objects\xuartlite_sinit.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_sinit.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_sinit.o --omf_browse .\objects\xuartlite_sinit.crf --depend .\objects\xuartlite_sinit.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
-F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_stats.c)(0x65563C4B)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_stats.o --omf_browse .\objects\xuartlite_stats.crf --depend .\objects\xuartlite_stats.d)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+F (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_stats.c)(0x65686831)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\xuartlite_stats.o --omf_browse .\objects\xuartlite_stats.crf --depend .\objects\xuartlite_stats.d)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xstatus.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_i.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\libsrc\uartlite_v3_2\src\xuartlite_l.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
 F (..\simpleserial\simpleserial.c)(0x65550586)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\simpleserial.o --omf_browse .\objects\simpleserial.crf --depend .\objects\simpleserial.d)
 I (..\simpleserial\simpleserial.h)(0x65550586)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E9F32)
 I (..\simpleserial\hal.h)(0x65550586)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xuartlite_l.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_types.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stddef.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_assert.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_io.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xil_printf.h)(0x65686832)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\ctype.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E9F32)
 I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E9F32)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65563C4B)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65563C4C)
-I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65563C4C)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xparameters.h)(0x65686831)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\bspconfig.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm.h)(0x65686832)
+I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xreg_cortexm3.h)(0x65686832)
 I (..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include\xpseudo_asm_rvct.h)(0x5D134FAC)
 F (..\crypto\aes-independant.c)(0x65550586)(--c99 -c --cpu Cortex-M3 -D__EVAL --li -g -O3 -Otime --apcs=interwork -I ..\cmsis\CMSIS\Include -I ..\cmsis\Device\Include -I ..\cmsis\Device\Include\ARTY_CM3 -I ..\main -I ..\gpio -I ..\uart -I ..\spi -I ..\sdk_workspace\standalone_bsp_0\Cortex_M3_0\include -I ..\simpleserial -I ..\crypto -I ..\crypto\tiny-AES128-C-I.\RTE\_CW305_DesignStart-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\Mattia\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\Device\ARM\ARMCM3\Include-D__UVISION_VERSION="538" -D_RTE_ -DARMCM3 -D_RTE_ -DCORTEX_M3 -DARTY_CM3 -DTINYAES128C -DSS_VER="1"-o .\objects\aes-independant.o --omf_browse .\objects\aes-independant.crf --depend .\objects\aes-independant.d)
 I (..\crypto\aes-independant.h)(0x65550586)

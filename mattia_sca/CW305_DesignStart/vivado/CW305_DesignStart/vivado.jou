@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Thu Nov 30 16:58:09 2023
+# Process ID: 2788364
+# Current directory: /home/sca.user/chipwhisperer/jupyter/mattia_sca/CW305_DesignStart/vivado/CW305_DesignStart
+# Command line: vivado
+# Log file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/CW305_DesignStart/vivado/CW305_DesignStart/vivado.log
+# Journal file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/CW305_DesignStart/vivado/CW305_DesignStart/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/sca.user/chipwhisperer/jupyter/mattia_sca/CW305_DesignStart/vivado/CW305_DesignStart/CW305_DesignStart.xpr
+update_compile_order -fileset sources_1
+close_project
+open_project /home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd}
+update_compile_order -fileset sources_1
+generate_target all [get_files  /home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd]
+export_ip_user_files -of_objects [get_files /home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files /home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd] -directory /home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/sim_scripts -ip_user_files_dir /home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files -ipstatic_source_dir /home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.ip_user_files/ipstatic -lib_map_path [list {modelsim=/home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/modelsim} {questa=/home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/precompiled_sim_libs} {ies=/home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/ies} {xcelium=/home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/xcelium} {vcs=/home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/vcs} {riviera=/home/sca.user/Desktop/arm_softcore/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/m3_for_arty_a7/m3_for_arty_a7/m3_for_arty_a7.cache/compile_simlib/riviera}] -use_ip_compiled_libs -force -quiet
+add_files -norecurse -scan_for_includes /home/sca.user/Desktop/arm_softcore/CW305-Arm-DesignStart-GitHub/src/hardware/clk_select.v
+import_files -norecurse /home/sca.user/Desktop/arm_softcore/CW305-Arm-DesignStart-GitHub/src/hardware/clk_select.v
+update_compile_order -fileset sources_1

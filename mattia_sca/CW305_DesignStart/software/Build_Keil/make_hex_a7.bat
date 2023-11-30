@@ -28,17 +28,18 @@
 
 @REM - Create the output files.
 @REM - File to load into FPGA RAM
-call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe --vhx --32x1 --output bram_a7.hex Z:\Desktop\arm_softcore\AT426-r0p1-00rel0-1\AT426-BU-98000-r0p1-00rel0\software\CW305_DesignStart\Build_Keil\objects\CW305_DesignStart.axf
+call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe --vhx --32x1 --output bram_a7.hex Z:\chipwhisperer\jupyter\mattia_sca\CW305_DesignStart\software\Build_Keil\objects\CW305_DesignStart.axf
 @REM - File to merge SW into bitstream
 @REM axf file will work, but has to be renamed to .elf for updatemem to work
 copy  objects\CW305_DesignStart.axf bram_a7.elf
 @REM - File to load into DAPLink QSPI simulation
-call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe --vhx --8x1  --output qspi_a7.hex Z:\Desktop\arm_softcore\AT426-r0p1-00rel0-1\AT426-BU-98000-r0p1-00rel0\software\CW305_DesignStart\Build_Keil\objects\CW305_DesignStart.axf
+@REM call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe --vhx --8x1  --output qspi_a7.hex Z:\Desktop\arm_softcore\AT426-r0p1-00rel0-1\AT426-BU-98000-r0p1-00rel0\software\CW305_DesignStart\Build_Keil\objects\CW305_DesignStart.axf
 @REM - Files to load onto DAPLink QSPI board
-call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe  --bin        --output qspi_a7.bin Z:\Desktop\arm_softcore\AT426-r0p1-00rel0-1\AT426-BU-98000-r0p1-00rel0\software\CW305_DesignStart\Build_Keil\objects\CW305_DesignStart.axf
+@REM call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe  --bin        --output qspi_a7.bin Z:\Desktop\arm_softcore\AT426-r0p1-00rel0-1\AT426-BU-98000-r0p1-00rel0\software\CW305_DesignStart\Build_Keil\objects\CW305_DesignStart.axf
 
 @REM - Copy the files to the relevant directories of the hardware project
-copy .\bram_a7.* Z:\Desktop\arm_softcore\AT426-r0p1-00rel0-1\AT426-BU-98000-r0p1-00rel0\hardware\CW305_DesignStart
+copy .\bram_a7.elf Z:\chipwhisperer\jupyter\mattia_sca\CW305_DesignStart\hardware
+copy .\bram_a7.hex Z:\chipwhisperer\jupyter\mattia_sca\CW305_DesignStart\hardware
 
 
 

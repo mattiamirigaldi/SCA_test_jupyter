@@ -1,22 +1,22 @@
 
 Tested with Ubuntu 23.04
 
-Target board : CW305 Artix FPGA Target 
+Target board: CW305 Artix FPGA Target 
 ## Software requirements
-- Xilinx Viado version 2019.1 (64-bit)
+- Xilinx Vivado version 2019.1 (64-bit)
 - Keil uVision version 5.38.0.0
 
 The server on which I'm working has Ubuntu OS. Though, Keil is only available for Windows.
 
-The solution i came up with is to install Keil on my private pc amd use the program [SFTP drive](https://www.nsoftware.com/sftpdrive?gad_source=1&gclid=EAIaIQobChMI18yxtLzrggMVX5aDBx1uvgIREAAYASAAEgKqJPD_BwE) which mount SFTP servers as local drives. Once connected, you can browse and work with files as if they were stored on your local machine. 
+The solution I came up with is to install Keil on my private PC and use the program [SFTP drive](https://www.nsoftware.com/sftpdrive?gad_source=1&gclid=EAIaIQobChMI18yxtLzrggMVX5aDBx1uvgIREAAYASAAEgKqJPD_BwE) which mount SFTP servers as local drives. Once connected, you can browse and work with files as if they were stored on your local machine. 
 
-# Generate FPGA bistream
+# Generate FPGA bitstream
 The vivado project can be found in directory `CW305_DesignStart/vivado/CW305_DesignStart/CW395_DesignStart.xpr`
 ## Setup
 ### Install board files
 Enable easy connectivity from the Xilinx IP Integrator (IPI) tool to the board pins.
 - Download and install Diligent Arty Artix 7 (A7) board files from [here](https://reference.digilentinc.com/learn/software/tutorials/vivado-board-files/start)
-- Add a reference to the location as part of your design. For example, if you uncompress the Digilent files to  `<install_dir>/vivado/Digilent`, you can use the following command in Vivado Tcl console.
+- Add a reference to the location as part of your design. For example, if you uncompress the Digilent files to  `<install_dir>/vivado/Digilent`, you can use the following command in the Vivado Tcl console.
 ~~~
 set_param board.repoPaths ../../vivado/Digilent_board_files vivado-boards-master/new/board_files/arty/
 ~~~
@@ -46,7 +46,7 @@ In vivado
 - in the TCL console `source make_mmi_file.tcl`
 2. Open in Keil the project file, which can be found in `./software/Build_Keil/CW305_DesignStart.uvprojx` and build it.
 
-The build should be clean excpet for some warning due to file "xil_assert.h".
+The build should be clean except for some warning due to file "xil_assert.h".
 
 Post-build is run automatically make_hex_a7.bat 
 

@@ -8,10 +8,10 @@ Target board: CW305 Artix FPGA Target
 
 The server on which I'm working has Ubuntu OS. Though, Keil is only available for Windows.
 
-The solution I came up with is to install Keil on my private PC and use the program [SFTP drive](https://www.nsoftware.com/sftpdrive?gad_source=1&gclid=EAIaIQobChMI18yxtLzrggMVX5aDBx1uvgIREAAYASAAEgKqJPD_BwE) which mount SFTP servers as local drives. Once connected, you can browse and work with files as if they were stored on your local machine. 
+The solution I came up with is to install Keil on my local PC and use the program [SFTP drive](https://www.nsoftware.com/sftpdrive?gad_source=1&gclid=EAIaIQobChMI18yxtLzrggMVX5aDBx1uvgIREAAYASAAEgKqJPD_BwE) which mount SFTP servers as local drives. Once connected, you can browse and work with files as if they were stored on your local machine. 
 
 # Generate FPGA bitstream
-The vivado project can be found in directory `CW305_DesignStart/vivado/CW305_DesignStart/CW395_DesignStart.xpr`
+The vivado project can be found in directory `CW305_DesignStart/vivado/CW305_DesignStart/CW305_DesignStart.xpr`
 ## Setup
 ### Install board files
 Enable easy connectivity from the Xilinx IP Integrator (IPI) tool to the board pins.

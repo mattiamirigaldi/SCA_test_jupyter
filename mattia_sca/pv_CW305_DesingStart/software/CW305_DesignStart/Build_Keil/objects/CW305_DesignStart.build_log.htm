@@ -1,0 +1,89 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Mattia Mirigaldi, Politecnico di Torino, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+Z:\chipwhisperer\jupyter\mattia_sca\pv_CW305_DesingStart\software\CW305_DesignStart\Build_Keil\CW305_DesignStart.uvprojx
+Project File Date:  12/05/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
+Rebuild target 'CW305_DesignStart'
+compiling xil_assert.c...
+assembling startup_ARTY_CM3.s...
+compiling outbyte.c...
+compiling print.c...
+compiling inbyte.c...
+compiling cw_gpio.c...
+compiling xgpio_extra.c...
+compiling system_ARTY_CM3.c...
+compiling xgpio.c...
+compiling xgpio_intr.c...
+compiling xgpio_g.c...
+compiling xgpio_selftest.c...
+compiling xuartlite.c...
+compiling xgpio_sinit.c...
+compiling xuartlite_l.c...
+compiling uart.c...
+compiling xuartlite_g.c...
+compiling xuartlite_intr.c...
+compiling aes.c...
+compiling simpleserial.c...
+compiling xuartlite_stats.c...
+compiling xuartlite_selftest.c...
+compiling aes-independant.c...
+compiling xuartlite_sinit.c...
+compiling cw_main.c...
+linking...
+Program Size: Code=5900 RO-data=740 RW-data=612 ZI-data=4836  
+FromELF: creating hex file...
+After Build - User command #1: make_hex_a7.bat
+Z:\chipwhisperer\jupyter\mattia_sca\pv_CW305_DesingStart\software\CW305_DesignStart\Build_Keil>call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe --vhx --32x1 --output bram_a7.hex objects\CW305_DesignStart.axf 
+Z:\chipwhisperer\jupyter\mattia_sca\pv_CW305_DesingStart\software\CW305_DesignStart\Build_Keil>copy  objects\CW305_DesignStart.axf bram_a7.elf 
+        1 file copiati.
+Z:\chipwhisperer\jupyter\mattia_sca\pv_CW305_DesingStart\software\CW305_DesignStart\Build_Keil>call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe --vhx --8x1  --output qspi_a7.hex objects\CW305_DesignStart.axf 
+Z:\chipwhisperer\jupyter\mattia_sca\pv_CW305_DesingStart\software\CW305_DesignStart\Build_Keil>call C:\Keil_v5\ARM\ARM_Compiler_5.06u7\bin\fromelf.exe  --bin        --output qspi_a7.bin objects\CW305_DesignStart.axf 
+Z:\chipwhisperer\jupyter\mattia_sca\pv_CW305_DesingStart\software\CW305_DesignStart\Build_Keil>copy .\bram_a7.elf ..\..\..\hardware\pv_CW305_DesignStart 
+        1 file copiati.
+Z:\chipwhisperer\jupyter\mattia_sca\pv_CW305_DesingStart\software\CW305_DesignStart\Build_Keil>copy .\bram_a7.hex ..\..\..\hardware\pv_CW305_DesignStart 
+        1 file copiati.
+".\objects\CW305_DesignStart.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_CW305_DesignStart
+  C:/Users/Mattia/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/Mattia/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/Device/ARM/ARMCM3/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>

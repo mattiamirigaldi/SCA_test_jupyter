@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Tue Dec  5 16:43:47 2023
+# Process ID: 1651470
+# Current directory: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/software/CW305_DesignStart/Build_Keil/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/software/CW305_DesignStart/Build_Keil/webtalk/webtalk.log
+# Journal file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/software/CW305_DesignStart/Build_Keil/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

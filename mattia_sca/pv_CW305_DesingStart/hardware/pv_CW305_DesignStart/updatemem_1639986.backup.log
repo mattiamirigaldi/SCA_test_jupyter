@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# updatemem v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Dec  4 15:11:24 2023
+# Process ID: 1639986
+# Current directory: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/pv_CW305_DesignStart
+# Command line: updatemem -mode batch -source /tools/Xilinx_2019.1/Vivado/2019.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./pv_CW305_DesignStart.runs/impl_1/CW305_designstart_top.bit -out pv_CW305_DesignStart.bit -force
+# Log file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/pv_CW305_DesignStart/updatemem.log
+# Journal file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/pv_CW305_DesignStart/updatemem.jou
+#-----------------------------------------------------------
+source /tools/Xilinx_2019.1/Vivado/2019.1/scripts/updatemem/main.tcl -notrace
+Command: update_mem -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./pv_CW305_DesignStart.runs/impl_1/CW305_designstart_top.bit -out pv_CW305_DesignStart.bit -force
+Loading bitfile ./pv_CW305_DesignStart.runs/impl_1/CW305_designstart_top.bit
+Loading data files...
+Updating memory content...
+Creating bitstream...
+Writing bitstream pv_CW305_DesignStart.bit...
+0 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+update_mem completed successfully
+update_mem: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1048.824 ; gain = 446.000 ; free physical = 2879 ; free virtual = 32297
+INFO: [Common 17-206] Exiting updatemem at Mon Dec  4 15:11:35 2023...

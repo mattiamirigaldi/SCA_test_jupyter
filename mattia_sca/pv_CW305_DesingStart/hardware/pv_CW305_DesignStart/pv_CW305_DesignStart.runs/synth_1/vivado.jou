@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  5 13:14:28 2023
+# Process ID: 1043856
+# Current directory: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/pv_CW305_DesignStart/pv_CW305_DesignStart.runs/synth_1
+# Command line: vivado -log CW305_designstart_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source CW305_designstart_top.tcl
+# Log file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/pv_CW305_DesignStart/pv_CW305_DesignStart.runs/synth_1/CW305_designstart_top.vds
+# Journal file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/AT426-r0p1-00rel0-1/AT426-BU-98000-r0p1-00rel0/hardware/pv_CW305_DesignStart/pv_CW305_DesignStart.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source CW305_designstart_top.tcl -notrace

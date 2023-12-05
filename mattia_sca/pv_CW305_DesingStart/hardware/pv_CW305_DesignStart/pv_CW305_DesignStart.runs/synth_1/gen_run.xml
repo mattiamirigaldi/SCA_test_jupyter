@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tftg256-2" LaunchTime="1701778467">
+  <File Type="PA-TCL" Name="CW305_designstart_top.tcl"/>
+  <File Type="REPORTS-TCL" Name="CW305_designstart_top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CW305_designstart_top.vds"/>
+  <File Type="RDS-DCP" Name="CW305_designstart_top.dcp"/>
+  <File Type="RDS-UTIL-PB" Name="CW305_designstart_top_utilization_synth.pb"/>
+  <File Type="RDS-UTIL" Name="CW305_designstart_top_utilization_synth.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/block_diagram/m3_for_arty_a7.bd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../m3_for_arty_a7/block_diagram/m3_for_arty_a7.bd"/>
+        <Attr Name="ImportTime" Val="1701681752"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/hardware/CW305_designstart_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../GitHub_src/src/hardware/CW305_designstart_top.v"/>
+        <Attr Name="ImportTime" Val="1701688130"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/m3_for_arty_a7/m3_for_arty_a7/bram_a7.hex">
+      <FileInfo SFType="MIF">
+        <Attr Name="ImportPath" Val="$PPRDIR/../m3_for_arty_a7/m3_for_arty_a7/bram_a7.hex"/>
+        <Attr Name="ImportTime" Val="1561546691"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="CW305_designstart_top"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/hardware/CW305_designstart.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../GitHub_src/src/hardware/CW305_designstart.xdc"/>
+        <Attr Name="ImportTime" Val="1701688130"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/hardware/CW305_designstart.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Flow_PerfOptimized_high" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design">
+      <Option Id="ShregMinSize">5</Option>
+      <Option Id="ResourceSharing">2</Option>
+      <Option Id="RepFanoutThreshold">400</Option>
+      <Option Id="NoCombineLuts">1</Option>
+      <Option Id="KeepEquivalentRegisters">1</Option>
+      <Option Id="FsmExtraction">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

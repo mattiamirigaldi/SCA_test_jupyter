@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Dec  5 17:01:54 2023
+# Process ID: 1701745
+# Current directory: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/hardware/pv_CW305_DesignStart
+# Command line: updatemem -mode batch -source /tools/Xilinx_2019.1/Vivado/2019.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo ./m3.mmi -data ./bram_a7.elf -proc dummy -bit ./pv_CW305_DesignStart.runs/impl_1/CW305_designstart_top.bit -out pv_CW305_DesignStart.bit -force
+# Log file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/hardware/pv_CW305_DesignStart/updatemem.log
+# Journal file: /home/sca.user/chipwhisperer/jupyter/mattia_sca/pv_CW305_DesingStart/hardware/pv_CW305_DesignStart/updatemem.jou
+#-----------------------------------------------------------
+source /tools/Xilinx_2019.1/Vivado/2019.1/scripts/updatemem/main.tcl -notrace

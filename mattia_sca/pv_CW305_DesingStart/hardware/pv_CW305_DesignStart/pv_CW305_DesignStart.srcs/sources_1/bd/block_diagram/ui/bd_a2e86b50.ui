@@ -68,14 +68,14 @@ preplace netloc xlconstant_6_dout 1 1 1 NJ 1180
 preplace netloc xlconstant_5_dout 1 1 1 180J 1200n
 preplace netloc xlconstant_4_dout 1 1 1 190J 1220n
 preplace netloc xlconstant_3_dout 1 1 1 210J 1240n
-preplace netloc axi_interconnect_0_M00_AXI 1 2 1 530 860n
-preplace netloc axi_gpio_0_GPIO 1 3 2 NJ 900 NJ
-preplace netloc axi_interconnect_0_M02_AXI 1 2 1 540 740n
-preplace netloc axi_interconnect_0_M01_AXI 1 2 1 N 880
-preplace netloc Cortex_M3_0_CM3_CODE_AXI3 1 3 2 NJ 80 NJ
+preplace netloc Cortex_M3_0_CM3_SYS_AXI3 1 1 3 220 660 NJ 660 1020
 preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 NJ 760
 preplace netloc axi_uartlite_0_UART 1 3 2 1030J 1030 NJ
-preplace netloc Cortex_M3_0_CM3_SYS_AXI3 1 1 3 220 660 NJ 660 1020
+preplace netloc Cortex_M3_0_CM3_CODE_AXI3 1 3 2 NJ 80 NJ
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 N 880
+preplace netloc axi_interconnect_0_M02_AXI 1 2 1 540 740n
+preplace netloc axi_gpio_0_GPIO 1 3 2 NJ 900 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 530 860n
 levelinfo -pg 1 0 100 380 790 1150 1280
 pagesize -pg 1 -db -bbox -sgen -170 0 1480 1540
 "
